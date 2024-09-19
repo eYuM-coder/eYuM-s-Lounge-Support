@@ -4,11 +4,11 @@
 // ==> GENERAL
 
 // --> General settings
-$hesk_settings['site_title']='eYuM Support';
-$hesk_settings['site_url']='http://49c97e98-fa0f-4d9e-a865-e656c4b141de-00-1inhkoc2l6x2u.worf.replit.dev';
-$hesk_settings['hesk_title']='eYuM Support';
-$hesk_settings['hesk_url']='http://49c97e98-fa0f-4d9e-a865-e656c4b141de-00-1inhkoc2l6x2u.worf.replit.dev';
-$hesk_settings['webmaster_mail']='support@eyumnotmuye.com';
+$hesk_settings['site_title']='Website';
+$hesk_settings['site_url']='http://4ddb644b-fc0e-4147-9937-d252585c98c7-00-22qbx4y9vdwy8.worf.replit.dev';
+$hesk_settings['hesk_title']='Help Desk';
+$hesk_settings['hesk_url']='http://4ddb644b-fc0e-4147-9937-d252585c98c7-00-22qbx4y9vdwy8.worf.replit.dev';
+$hesk_settings['webmaster_mail']='support@example.com';
 $hesk_settings['site_theme']='hesk3';
 $hesk_settings['admin_css']=0;
 $hesk_settings['admin_css_url']='https://www.example.com/hesk-style.css';
@@ -25,7 +25,7 @@ $hesk_settings['db_host']='sql3.freemysqlhosting.net';
 $hesk_settings['db_name']='sql3732280';
 $hesk_settings['db_user']='sql3732280';
 $hesk_settings['db_pass']='PkNe7TCsFC';
-$hesk_settings['db_pfix']='';
+$hesk_settings['db_pfix']='hesk_';
 
 
 // ==> HELP DESK
@@ -54,8 +54,8 @@ $hesk_settings['require_message']=1;
 $hesk_settings['custclose']=1;
 $hesk_settings['custopen']=1;
 $hesk_settings['rating']=1;
-$hesk_settings['cust_urgency']=0;
-$hesk_settings['sequential']=0;
+$hesk_settings['cust_urgency']=1;
+$hesk_settings['sequential']=1;
 $hesk_settings['time_worked']=1;
 $hesk_settings['spam_notice']=1;
 $hesk_settings['list_users']=0;
@@ -63,18 +63,18 @@ $hesk_settings['debug_mode']=0;
 $hesk_settings['short_link']=0;
 $hesk_settings['select_cat']=0;
 $hesk_settings['select_pri']=0;
-$hesk_settings['cat_show_select']=50;
+$hesk_settings['cat_show_select']=15;
 $hesk_settings['staff_ticket_formatting']=0;
 
 // --> SPAM Prevention
-$hesk_settings['secimg_use']=2;
-$hesk_settings['secimg_sum']='AW432LX3RN';
+$hesk_settings['secimg_use']=1;
+$hesk_settings['secimg_sum']='2YWP74G47Q';
 $hesk_settings['recaptcha_use']=2;
-$hesk_settings['recaptcha_public_key']='6LdqbUkqAAAAAJ4IDSie2aTqzA52vlNwJnSo3_M0';
-$hesk_settings['recaptcha_private_key']='6LdqbUkqAAAAAL13WsBXoUWgzAcD798Ix74lizPm';
+$hesk_settings['recaptcha_public_key']='6Ld3d0kqAAAAAEBQf9WYbv0MLWIPNjLZK8Ffy68V';
+$hesk_settings['recaptcha_private_key']='6Ld3d0kqAAAAAEBQf9WYbv0MLWIPNjLZK8Ffy68V';
 $hesk_settings['question_use']=0;
-$hesk_settings['question_ask']='Which of these is not an animal: bird, lion, snow';
-$hesk_settings['question_ans']='snow';
+$hesk_settings['question_ask']='Are you a robot? (yes or no)';
+$hesk_settings['question_ans']='no';
 
 // --> Security
 $hesk_settings['attempt_limit']=6;
@@ -85,7 +85,7 @@ $hesk_settings['email_view_ticket']=1;
 $hesk_settings['x_frame_opt']=1;
 $hesk_settings['samesite']='Lax';
 $hesk_settings['force_ssl']=0;
-$hesk_settings['url_key']='5mDSUvSpQsxUGnqJp1tY-GV_psKCsv';
+$hesk_settings['url_key']='xJVhGrbM3v3rTmx6h1JyBwnxGxHX7X';
 $hesk_settings['require_mfa']=0;
 $hesk_settings['elevator_duration']='60M';
 
